@@ -1,0 +1,99 @@
+body{
+    background-image: url(./images/courses-bg.jpg);
+    color: white;
+}
+
+
+.ww1{
+    text-transform: uppercase;
+    color: white;
+    
+    width: 100vw;
+    height: 100vh;
+}
+.ww{
+    border-top: 2px solid #FC3;
+    border-bottom: 2px solid #FC3;
+    padding: 5px;
+    letter-spacing: .3px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 35px;
+    text-align: center;
+    margin-top: -150px;
+    
+}
+span{
+    color: #FC3;
+}
+/* Create three equal columns that floats next to each other */
+.row-ab{
+	position: relative;
+	margin-top: -110px;
+	text-align: center;
+	letter-spacing: 0.5px;
+	font-: 800;weight
+}
+.column-ab {
+	float: left;
+	width: 50%;
+	padding: 60px;
+	margin-top: 250px;
+
+	
+  }
+  
+  .column-ab h2{
+  
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: transparent;
+    border: none;
+    border-top: 2px solid #FC3;
+    border-bottom: 2px solid #FC3;
+    
+  }
+  
+
+  
+  /* Clear floats after the columns */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  .column-ab .cta{
+	  margin-left: 50px;
+	  margin-top: 50px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+      background-color: transparent;
+      border: none;
+      border-top: 2px solid #FC3;
+      border-bottom: 2px solid #FC3;
+      
+  }
+    /* footer section styling */
+footer{
+    background: #111;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+}
+footer span a{
+    color: crimson;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
+ 
+  
+
+ 
